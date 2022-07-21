@@ -1,0 +1,158 @@
+@media screen and (max-width: 1920px) {
+    .container-box {
+        width: 90%;
+        background-color: #EFEFEF;
+        margin: 30px;
+        border: 1px solid #EFEFEF;
+        padding: 5px;
+        display: inline-flex;
+    }
+
+    .cont-sub {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .numbox {
+        width: 33%;
+    }
+
+    .numdisp {
+        padding: 25%;
+        font-size: 82px;
+        border: 1px solid #111;
+        text-align: center;
+        color: #ffffff;
+        background: #2f454e;
+    }
+
+    .actionbox {
+        width: 20%;
+    }
+
+    .buttonCSS {
+        width: 100%;
+        font-weight: bold;
+        padding: 10px;
+        box-shadow: 0px 3px 1px #2a8ead;
+        border-radius: 6px;
+        border: none;
+        background: #72c3dc;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .footer {
+        text-align: center;
+        width: 90%;
+        background-color: #EFEFEF;
+        margin: -31px 30px 30px 30px;
+        border: 1px solid #EFEFEF;
+        padding: 5px;
+    }
+    .one {
+        background-color: #6f98a8;
+        border: 1px solid #6f98a8;
+    }
+    
+    .two {
+        background-color: #2b8ead;
+        border: 1px solid #2b8ead;
+    }
+    
+    .three {
+        background-color: #2f454e;
+        border: 1px solid #2f454e;
+    }
+    
+    .seven {
+        background-color: #bfbfbf;
+        border: 1px solid #bfbfbf;
+    }
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 375px) {
+    .container-box {
+        width: 100%;
+        padding: 5px;
+        display: block;
+        background-color: #ffffff;
+        border: none;
+        margin: 40px 15px 15px 15px;
+    }
+
+    .cont-sub {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .numbox {
+        width: 85%;
+    }
+
+    .numdisp {
+        padding: 5%;
+        font-size: 20px;
+        text-align: center;
+        color: #111;
+        margin: 3px;
+        font-weight: bold;
+        border-left: 6px solid #2b8ead;
+    }
+
+    .actionbox {
+        margin-top: -630px;
+        width: 70%;
+    }
+
+    .btn-align {
+        display: flex;
+    }
+
+    .ml-25 {
+        margin-left: 25px;
+    }
+
+    .footer {
+        text-align: center;
+        width: 90%;
+        padding: 5px;
+        margin-top: 570px !important;
+        background-color: #ffffff;
+        margin: 0px;
+        border: none;
+    }
+
+    .one {
+        border-left: 6px solid #6f98a8 !important;
+        background-color: #efefef;
+        border: none;
+    }        
+    .two {        
+        border-left: 6px solid #2b8ead !important;
+        background-color: #efefef;
+        border: none;
+    }
+    
+    .three {        
+        border-left: 6px solid #2f454e !important;
+        background-color: #efefef;
+        border: none;
+    }
+    
+    .seven {        
+        border-left: 6px solid #bfbfbf !important;
+        background-color: #efefef;
+        border: none;
+    }
+}
+

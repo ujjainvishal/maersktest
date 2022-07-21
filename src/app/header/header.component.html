@@ -1,0 +1,19 @@
+<div class="container-box">
+    <div class="cont-sub">
+        <div class="numbox" *ngFor="let item of numArray">
+            <div *ngIf="item==1 || item==8" class="one numdisp">{{item}}</div>
+            <div *ngIf="item==2 || item==4" class="two numdisp">{{item}}</div>
+            <div *ngIf="item==3 || item==5|| item==9" class="three numdisp">{{item}}</div>
+            <div *ngIf="item==6 || item==7" class="seven numdisp">{{item}}</div>
+        </div>
+    </div>
+    <div class="actionbox pd-10">
+        <div class="btn-align">
+            <button (click)="shuffle()" class="buttonCSS mt-15 ml-25">SHUFFLE</button>
+            <button (click)="sort()" class="buttonCSS mt-15  ml-25">SORT</button>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    Suffle and sort by : {{name}}
+</div>
